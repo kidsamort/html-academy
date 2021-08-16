@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Botanika цаеты в Петербурге</title>
   </head>
   <body>
@@ -23,7 +35,7 @@
               <li><a href="#">Доставка и оплата</a></li>
               <li><a href="#">Отзывы</a></li>
             </ul>
-           <img src="img/logo.svg" alt="Логотип Botanika цаеты в Петербурге">
+            <img src="img/logo.svg" alt="Логотип Botanika цаеты в Петербурге" />
             <ul class="header__right">
               <li><a href="#">Спецпредложения</a></li>
               <li><a href="#">Контакты</a></li>
@@ -32,6 +44,75 @@
           </div>
         </div>
       </header>
+      <main>
+        <section class="wellcome">
+          <div class="container">
+            <div class="wellcome__colum">
+              <div class="wellcome__text">
+                <h1>
+                  Авторские букеты
+                  <span>в Петербурге</span>
+                </h1>
+                <p>Оригинальные свежие букеты с доставкой по всему городу</p>
+                <button class="wellcome__button button">Смотреть каталог</button>
+              </div>
+              <div class="wellcome__background">
+                <img src="img/wellcome-background.png" alt="Красивые цветы в руках" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="advantage">
+          <div class="container">
+            <div class="advantage__colum">
+              <div class="advantage__list">
+                <img src="img/advantage-icon_1.svg" alt="Машина" />
+                <div class="advantage__text">
+                  <h3>Быстрая доставка</h3>
+                  <p>Можем собрать букет и передать его в доставку всего за час.</p>
+                </div>
+              </div>
+              <div class="advantage__list">
+                <img src="img/advantage-icon_2.svg" alt="Букет" />
+                <div class="advantage__text">
+                  <h3>Всегда свежие цветы</h3>
+                  <p>
+                    Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов
+                    каждый цветок.
+                  </p>
+                </div>
+              </div>
+              <div class="advantage__list">
+                <img src="img/advantage-icon_3.svg" alt="Фотоапарат" />
+                <div class="advantage__text">
+                  <h3>Отправляем фото цветов</h3>
+                  <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section.popular>.container>.popular__row-wrapp>h2>.popular__row>.popular__text+img -->
+        <section class="popular">
+          <div class="container">
+            <div class="popular__row">
+              <h2>Популярные букеты</h2>
+              <div class="popular__colum">
+                <div class="popular__text">
+                  <h3>Букет «Нежность»</h3>
+                  <p>
+                    Элегантный букет, который станет отличным подарком на день рождения или юбилей.
+                  </p>
+                  <p>30 × 40 см</p>
+                  <p>3600 руб.</p>
+                  <button class="popular__button button">Заказать</button>
+                </div>
+                <img src="img/popular_flower.png" alt="Популярные цветы желтые" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>

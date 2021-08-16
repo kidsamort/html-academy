@@ -1,6 +1,8 @@
 * {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  line-height: 20px;
+  color: #ae7c78;
 }
 
 .container {
@@ -41,7 +43,6 @@
 .header a {
   text-decoration: none;
   color: #ae7c78;
-  line-height: 20px;
 }
 
 .header__colum {
@@ -57,5 +58,117 @@
 .header__colum img {
   margin: 0 62px;
   padding: 16px 0;
+}
+
+.wellcome__colum {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+  margin-top: 82px;
+}
+
+.wellcome__text {
+  margin-right: 23px;
+}
+
+.wellcome h1,
+.wellcome span {
+  font-size: 44px;
+  margin-bottom: 24px;
+  line-height: 59px;
+  font-family: 'Playfair Display', serif;
+}
+
+.wellcome span {
+  font-style: italic;
+}
+
+.wellcome p {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 64px;
+}
+
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 70px;
+  min-width: 285px;
+  max-height: 85px;
+  border-radius: 40px;
+  background-color: #D89999;
+  color: white;
+}
+
+.advantage__colum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 48px;
+}
+
+.advantage__text {
+  color: #AE7C78;
+  max-width: 285px;
+}
+
+.advantage img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-right: 20px;
+}
+
+.advantage h3 {
+  font-weight: 500;
+}
+
+.advantage p {
+  margin-top: 8px;
+}
+
+.advantage__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popular__row {
+  margin: 80px 0;
+  max-height: 554px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.popular__colum {
+  margin: 0 auto;
+  max-width: 794px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popular h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 2%;
+  text-align: center;
+  margin-bottom: 36px;
+  font-weight: bold;
+}
+
+.popular h3 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=index.css.map */

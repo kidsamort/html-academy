@@ -1,6 +1,8 @@
 * {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  line-height: 20px;
+  color: #ae7c78;
 }
 
 .container {
@@ -22,18 +24,15 @@
     align-items: center;
     text-align: center;
     padding: 22px 0;
-    
   }
   li {
     list-style: none;
     justify-content: center;
-    
   }
   a {
     text-decoration: none;
     color: #ae7c78;
 
-    line-height: 20px;
   }
   &__colum {
     display: grid;
@@ -42,9 +41,103 @@
 
     img {
       margin: 0 62px;
-    padding: 16px 0;
-
+      padding: 16px 0;
     }
   }
+}
 
+.wellcome {
+  &__colum {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 82px;
+  }
+  &__text {
+    
+    margin-right: 23px;
+  }
+  h1,
+  span {
+    font-size: 44px;
+    margin-bottom: 24px;
+    line-height: 59px;
+    font-family: 'Playfair Display', serif;
+  }
+  span {
+    font-style: italic;
+  }
+  p {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 64px;
+  }
+
+}
+.button{
+  box-sizing: border-box;
+  padding: 30px 70px;
+  min-width: 285px;
+  max-height: 85px;
+  border-radius: 40px;
+  background-color: #D89999;
+  color: white;
+}
+
+.advantage{
+  &__colum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+  }
+  &__text{
+    color: #AE7C78;
+    max-width: 285px;
+  }
+
+  img {
+    align-self: flex-start;
+
+    margin-right: 20px;
+  }
+
+  h3{
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 8px;
+  }
+  
+  &__list {
+    display: flex;
+  }
+}
+
+.popular{
+  &__row{
+    margin: 80px 0;
+    max-height: 554px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+  }
+  &__colum{
+    margin: 0 auto;
+    max-width: 794px;
+    display: flex;
+    justify-content: center;
+  }
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 2%;
+    text-align: center;
+    margin-bottom: 36px;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+  }
 }
