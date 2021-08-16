@@ -31,16 +31,17 @@
   padding: 22px 0;
 }
 
-.header ul li {
+.header li {
   list-style: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.header ul li a {
+.header a {
   text-decoration: none;
   color: #ae7c78;
+  line-height: 20px;
 }
 
 .header__colum {
@@ -53,7 +54,8 @@
           align-items: center;
 }
 
-.header__colum svg {
+.header__colum img {
   margin: 0 62px;
+  padding: 16px 0;
 }
 /*# sourceMappingURL=index.css.map */
